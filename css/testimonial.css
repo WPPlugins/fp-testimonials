@@ -1,0 +1,90 @@
+/*COMMON CSS*/
+.testi_name {
+	font-family:tahoma;
+	display:block;
+	text-align:right;
+	font-size:10px;
+}
+.testi {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px dotted #CCC;
+}
+img.attachment-testimonial, img.attachment-testimonial_page{
+	float:right;
+	display:block;
+	border-radius:3px solid #DDD;
+	-moz-border-radius:3px solid #DDD;
+	-webkit-border-radius:3px solid #DDD;
+	margin-right:4px;
+}
+.testi_thumb{
+	display:block;
+}
+/* PAGER DESIGN */
+.bx-pager {
+	text-align:center;
+}
+.bx-pager .pager-link {
+	background:#CCC;
+	text-decoration:none;
+	margin:0 2px;
+	padding:0px 5px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	outline:none;
+}
+.bx-pager .pager-link.pager-active {
+	background:#333;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../images/left.png) no-repeat;
+	width:32px;
+	height:31px;
+	float:left;
+	text-indent:-9999px;
+	outline:none;
+}
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../images/right.png) no-repeat;
+	width:32px;
+	height:31px;
+	float:right;
+	text-indent:-9999px;
+	outline:none;
+}
+.bx-wrapper .bx-prev:hover, .bx-wrapper .bx-next:hover {
+	opacity: .7;
+}
+/* Pagination Design */
+
+.pagination {
+	clear:both;
+	float:right;
+	font-size:11px;
+	line-height:13px;
+}
+.pagination span, .pagination a {
+	display:block;
+	float:left;
+	margin: 2px 2px 2px 0;
+	padding:6px 9px 5px 9px;
+	text-decoration:none;
+	width:auto;
+	color:#fff;
+	background: #555;
+}
+.pagination a:hover {
+	color:#fff;
+	background: #3279BB;
+}
+.pagination .current {
+	padding:6px 9px 5px 9px;
+	background: #3279BB;
+	color:#fff;
+}
